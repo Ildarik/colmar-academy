@@ -72,3 +72,37 @@ nav li {
   background: dimgray;
   color: white;
 }
+
+/* INFORMATION */
+
+.information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  flex-basis: 60%;
+}
+
+.main img {
+  padding: 32px 24px;
+  width: 60%;
+}
+
+.features {
+  flex-basis: 40%;
+}
+
+.feature {
+  display: flex;
+}
+
+.feature img {
+  height: auto;
+  width: 35%;
+}
+
+.feature-info {
+  display: flex;
+  flex-direction: column;
+}
