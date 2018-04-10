@@ -131,6 +131,43 @@ nav li {
   font-weight: bold;
 }
 
+/* COURSES */
+
+.courses {
+  padding: 32px 72px;
+  background-color: lightgray;
+}
+
+.courses-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.course {
+  margin: 8px 8px;
+  flex-basis: 30%;
+  background-color: white;
+}
+
+.course img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-description {
+  padding: 16px 16px;
+  line-height: 1.5;
+}
+
+.course-description h4 {
+  font-weight: bold;
+}
+
 /* FOOTER */
 
 footer {
