@@ -81,30 +81,54 @@ nav li {
 }
 
 .main {
+  padding: 32px 24px;
   flex-basis: 60%;
 }
 
 .main img {
-  padding: 32px 24px;
-  width: 60%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.main h2 {
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.main-hero {
+  padding-top: 32px;
 }
 
 .features {
+  margin-top: 16px;
   flex-basis: 40%;
 }
 
 .feature {
+  padding: 16px 16px;
   display: flex;
 }
 
-.feature img {
-  height: auto;
-  width: 35%;
+.feature-image {
+  flex-basis: 35%;
+}
+
+.feature-image img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .feature-info {
+  padding-left: 24px;
   display: flex;
   flex-direction: column;
+  flex-basis: 65%;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+.feature-info h4 {
+  font-weight: bold;
 }
 
 /* FOOTER */
