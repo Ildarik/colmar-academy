@@ -175,6 +175,73 @@ nav li {
   font-weight: bold;
 }
 
+/* THESIS */
+
+.thesis-exhibit {
+  display: flex;
+}
+
+.thesis h2 {
+  padding-top: 32px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.exhibits {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+}
+
+.exhibit:first-child {
+  background-color: lightgray;
+}
+
+.thesis-exhibit {
+  padding: 32px 24px;
+}
+
+.video {
+  padding-right: 24px;
+  flex-basis: 60%;
+}
+
+.video video {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.video h4 {
+  padding-top: 24px;
+  padding-bottom: 8px;
+  font-weight: bold;
+}
+
+.exhibit {
+  display: flex;
+  align-items: center;
+}
+
+.exhibit-image {
+  padding: 16px 16px;
+  flex-basis: 35%;
+}
+
+.exhibit-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.exhibit-info {
+  flex-basis: 65%;
+  line-height: 1.5;
+}
+
+.exhibit-info h4 {
+  font-weight: bold;
+}
+
 /* FOOTER */
 
 footer {
