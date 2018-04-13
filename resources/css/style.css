@@ -78,8 +78,12 @@ nav li {
 
 .cta button {
   padding: 8px;
+  margin-top: 12px;
+  margin-right: 35px;
   background: dimgray;
   color: white;
+  border: none;
+  font-size: 17px;
 }
 
 /* INFORMATION */
