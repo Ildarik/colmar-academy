@@ -9,6 +9,12 @@ html {
   margin: 0 auto;
 }
 
+h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
 /* HEADER */
 
 header {
@@ -70,7 +76,7 @@ nav li {
   font-weight: bold;
 }
 
-.cta h2 {
+.cta h4 {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: bold;
@@ -106,6 +112,7 @@ nav li {
 .main h2 {
   padding-top: 32px;
   padding-bottom: 24px;
+  text-align: left;
 }
 
 .main-hero {
@@ -164,9 +171,6 @@ nav li {
 
 .courses h2 {
   padding-bottom: 24px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: bold;
 }
 
 .course img {
@@ -196,9 +200,6 @@ nav li {
 
 .thesis h2 {
   padding-top: 32px;
-  font-size: 32px;
-  font-weight: bold;
-  text-align: center;
 }
 
 .exhibits {
