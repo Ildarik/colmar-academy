@@ -115,8 +115,14 @@ nav li {
   text-align: left;
 }
 
+.main-voice {
+  font-size: 15px;
+  line-height: 1.3;
+}
+
 .main-hero {
   padding-top: 32px;
+  font-size: 13px;
 }
 
 .features {
