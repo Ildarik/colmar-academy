@@ -210,7 +210,17 @@ nav li {
 }
 
 .course-description h4 {
+  font-size: 18px;
   font-weight: bold;
+}
+
+.course-description p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.course-description p:last-child {
+  margin-top: 5px;
 }
 
 /* THESIS */
