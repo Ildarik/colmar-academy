@@ -305,4 +305,5 @@ footer {
   padding-bottom: 64px;
   display: flex;
   justify-content: space-between;
+  font-size: 13px;
 }
