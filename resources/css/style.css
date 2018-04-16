@@ -226,7 +226,16 @@ nav li {
 /* THESIS */
 
 .thesis-exhibit {
+  padding: 32px 24px;
   display: flex;
+}
+
+.thesis-exhibit h4 {
+  font-size: 18px;
+}
+
+.thesis-exhibit p {
+  font-size: 14px;
 }
 
 .thesis h2 {
@@ -241,10 +250,6 @@ nav li {
 
 .exhibit:first-child {
   background-color: lightgray;
-}
-
-.thesis-exhibit {
-  padding: 32px 24px;
 }
 
 .video {
@@ -263,6 +268,10 @@ nav li {
   font-weight: bold;
 }
 
+.video {
+  line-height: 1.5;
+}
+
 .exhibit {
   display: flex;
   align-items: center;
@@ -270,7 +279,7 @@ nav li {
 
 .exhibit-image {
   padding: 16px 16px;
-  flex-basis: 35%;
+  flex-basis: 40%;
 }
 
 .exhibit-image img {
@@ -279,11 +288,13 @@ nav li {
 }
 
 .exhibit-info {
-  flex-basis: 65%;
+  margin-left: 8px;
+  flex-basis: 60%;
   line-height: 1.5;
 }
 
 .exhibit-info h4 {
+  margin-bottom: 8px;
   font-weight: bold;
 }
 
