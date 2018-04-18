@@ -44,6 +44,21 @@ nav li {
   margin-left: 16px;
 }
 
+.mobile-nav-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 470px) {
+  .logo-title,
+  nav {
+    display: none;
+  }
+
+  .mobile-nav-icon {
+    display: block;
+  }
+}
+
 /* BANNER */
 
 .banner {
