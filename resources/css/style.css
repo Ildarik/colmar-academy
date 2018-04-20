@@ -194,6 +194,10 @@ nav li {
   max-height: 100%;
 }
 
+.feature-image-mobile {
+  display: none;
+}
+
 .feature-info {
   padding-left: 24px;
   display: flex;
@@ -220,6 +224,42 @@ nav li {
 
 .feature:last-child {
   background-color: lightgray;
+}
+
+@media only screen and (max-width: 470px) {
+  .main {
+    display: none;
+  }
+
+  .features {
+    flex-basis: 100%;
+  }
+
+  .feature {
+    flex-direction: column;
+  }
+
+  .feature-image {
+    display: none;
+  }
+
+  .feature-image-mobile {
+    display: inline-block;
+  }
+
+  .feature-image-mobile img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .feature:last-child {
+    background-color: white;
+  }
+
+  .feature-info {
+    padding-top: 16px;
+    padding-left: 16px;
+  }
 }
 
 /* COURSES */
